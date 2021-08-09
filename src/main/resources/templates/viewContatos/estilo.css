@@ -1,0 +1,42 @@
+body{
+    margin: 0.5;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    font-size:large;
+    background-color:antiquewhite;
+}
+
+h1 {
+    font-size: 2.2em;
+    margin: 0em 0.5;
+  }
+
+button{
+    border: royalblue;
+    border-radius: 3;
+    border: 1px solid black;
+    background-color: greenyellow;
+    padding: 5px 5px;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.content p{
+    color: #929da5;
+    font-size: 18px;
+    word-spacing: 3px;
+} /* é mais para uma futura implementação */
+
+a:link{
+    color: #000;
+    text-decoration: none;    
+}
+
+a:visited{
+    text-decoration:none;
+    color: #000;
+    }

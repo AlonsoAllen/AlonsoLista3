@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+    <title>ListaContatos</title>
+</head>
+<body>
+    
+    <h1>Lista de Contatos:</h1>
+    
+    <div th.each="Contato : ${listaContatos}">
+    	<div class="row">
+    		<p><span th:text="${contato != null} ? ${contato.id} : 'contato is null'"></span></p>
+    	</div>
+    </div>    
+
+    <p><span th:text="${contato != null} ? ${contato.id} : 'contato is null'"></span></p> 
+ 
+</body>
+
+</html>
